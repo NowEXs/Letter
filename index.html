@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="con">
+        <div class="wrap">
+            <div class="envelope flap">
+                <div class="letter">
+                    <div class="text">
+                        <strong>ถึง คุณเขมรุจิ แสงสุรีย์กุลกิจ</strong>
+                        <p>
+                            ขอบคุณที่อยู่ด้วยกันจนวันมาถึงปีใหม่อีกปีนะคะ ขอบคุณที่อยู่ข้างๆกันเสมอ
+                            ในเวลาที่าเค้าเหนื่อย เค้าหงุดหงิด ก็คอยมีแฟนอยู่ข้างๆ
+                            เค้าอยากให้เราได้อยู่ข้างกันในทุกๆปี คอยสนับสนุนกัน ช่วยเหลือกัน เป็นกำลังใจให้กันไปเรื่อยๆ
+                            รักแฟนมากๆนะครับคนสวยของเค้า
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+</body>
+<script>
+    const envelope = document.querySelector('.wrap');
+    envelope.addEventListener('click', () => {
+        envelope.classList.toggle('flap');
+    });
+</script>
+
+</html>
