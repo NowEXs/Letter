@@ -81,7 +81,7 @@
     background: var(--heart-color);
     z-index: 4;
     transform: translate(-50%, -20%) rotate(45deg);
-    transition: transform 0.5s ease-in-out 1s;
+    transition: transform 0.5s ease-in-out 0.5s;
     box-shadow: 0 1px 6px var(--shadow-color);
     cursor: pointer;
   }
@@ -105,11 +105,18 @@
     z-index: 0;
   }
   .flap > .envelope > .letter {
-    bottom: 100px;
+    bottom: 250px;
     transform: scale(1.5);
     transition-delay: 1s;
   }
   .flap > .heart {
     transform: rotate(90deg);
     transition-delay: 0.4s;
+  }
+
+  img {
+    position: absolute;
+    left: 145px;
+    width: 13vh;
+    height: 10vh;
   }
