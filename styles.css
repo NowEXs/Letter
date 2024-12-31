@@ -323,7 +323,7 @@ img {
         background: var(--bg-envelope-color);
         box-shadow: 0 0 40px var(--shadow-color);
         width: 85%;
-        max-width: 500px;
+        max-width: 490px;
     }
 
     .wrap>.envelope::before {
@@ -332,8 +332,8 @@ img {
         top: 0;
         z-index: 2;
         border-top: 155px solid var(--envelope-tab);
-        border-right: 220px solid transparent;
-        border-left: 220px solid transparent;
+        border-right: 210px solid transparent;
+        border-left: 210px solid transparent;
         transform-origin: top;
         transition: all 0.5s ease-in-out 0.7s;
     }
@@ -345,9 +345,9 @@ img {
         width: 0px;
         height: 0px;
         border-top: 150px solid transparent;
-        border-right: 220px solid var(--envelope-cover);
+        border-right: 210px solid var(--envelope-cover);
         border-bottom: 150px solid var(--envelope-cover);
-        border-left: 220px solid var(--envelope-cover);
+        border-left: 210px solid var(--envelope-cover);
     }
 
     .envelope {
@@ -384,8 +384,8 @@ img {
     .envelope>.letter {
         position: absolute;
         bottom: 0;
-        right: 27%;
-        width: 54%;
+        right: 31%;
+        width: 50%;
         height: 50%;
         background: var(--primary);
         text-align: center;
